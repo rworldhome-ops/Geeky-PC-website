@@ -19,14 +19,15 @@ li {
   float: left;
 }
 li a, .dropbtn {
-  display: inline-block;
+  display:inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 20px;
   text-decoration: none;
+  font-family: 'orbitron', serif;
 }
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(62, 62, 62);
 }
 li.dropdown {
   display: inline-block;
@@ -52,4 +53,12 @@ li.dropdown {
 }
 ul li a.active {
   background-color: red;
+}
+
+body {
+    font-family: 'orbitron', serif;
+}
+
+h2 {
+    font-weight: 900;
 }
