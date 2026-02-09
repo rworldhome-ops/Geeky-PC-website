@@ -50,3 +50,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+ul li a.active {
+  background-color: red;
+}
